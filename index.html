@@ -1,55 +1,43 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oumaima | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بورتفوليو | اسمك</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-  <header>
-    <h1>Oumaima</h1>
+    <!-- شريط التنقل -->
     <nav>
-      <a href="#about">À propos</a>
-      <a href="#projects">Projets</a>
-      <a href="#contact">Contact</a>
+        <div class="container">
+            <a href="#" class="logo">بورتفوليو</a>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">عنّي</a></li>
+                <li><a href="#projects">المشاريع</a></li>
+                <li><a href="#contact">اتصل بي</a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
 
-  <section class="hero">
-    <h2>Bienvenue !</h2>
-    <p>Je suis développeuse front-end passionnée.</p>
-  </section>
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>مرحباً، أنا <span>اسمك</span></h1>
+                <p>مطور ويب ومصمم واجهات مستخدم</p>
+                <a href="#projects" class="btn">عرض أعمالي</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="صورة شخصية">
+            </div>
+        </div>
+    </section>
 
-  <section id="about">
-    <h2>À propos</h2>
-    <p>Je suis développeuse front-end avec une licence en informatique. J’aime créer des sites modernes et interactifs.</p>
-  </section>
+    <!-- المزيد من الأقسام... -->
 
-  <section id="projects">
-    <h2>Mes Projets</h2>
-    <ul class="project-list">
-      <li>
-        <h3>Site de recettes</h3>
-        <p>Application web pour consulter des recettes facilement.</p>
-      </li>
-      <li>
-        <h3>Portfolio personnel</h3>
-        <p>Ce site est mon portfolio pour montrer mes compétences.</p>
-      </li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email : oumaima.dev@email.com</p>
-  </section>
-
-  <footer>
-    © 2025 Oumaima. Tous droits réservés.
-  </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
 
